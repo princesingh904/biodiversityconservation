@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Endangered Species</title>
+
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+        <link rel="stylesheet" href="styleproject.css">
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+
+        <!-- Navigation -->
+
+        <nav>
+            <img src="image/img2.png" alt="">
+            <div class="navigation">
+                <ul>
+                    <i id="menu-close" class="fas fa-times"></i>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a class="active" href="blog.html">Species</a></li>
+                    <li><a href="course.html">Conservation Steps</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <img id="menu-btn" src="image/endangered.jpg" alt="">
+            </div>
+        </nav>
+
+        <!-- Home -->
+
+        <section id="about-home">
+            <h2>Endangered Species /</h2>
+        </section>
+
+       <section id="blog-container">
+        <div class="blogs">
+            <div class="post">
+                <img src="image/amur.jpg" alt="">
+                <h3>Amur Leopard</h3>
+                <P>This majestic big cat is native to the Russian Far East and northeastern China. With estimates of only around 60 individuals remaining in the wild, it is critically endangered due to habitat loss, poaching, and prey depletion.</P>
+                <a href="post.html">Read More</a>
+            </div>
+
+
+            <div class="post">
+                <img src="image/vaquita.jpg" alt="">
+                <h3>Vaquita</h3>
+                <P>The world's smallest and most endangered cetacean, the vaquita is a porpoise species found exclusively in the northern Gulf of California. With less than 10 individuals remaining, mainly due to bycatch in illegal gillnets, it is on the brink of extinction.</P>
+                <a href="#">Read More</a>
+            </div>
+
+            <div class="post">
+                <img src="image/javan.jpg" alt="">
+                <h3>Javan Rhino</h3>
+                <P>This critically endangered rhinoceros species is native to Java, Indonesia. With a population of less than 70 individuals, it faces threats such as habitat loss and poaching for its horn, which is highly valued in traditional Asian medicine.</P>
+                <a href="#">Read More</a>
+            </div>
+
+            <div class="post">
+                <img src="image/sumatran.jpg" alt="">
+                <h3>Sumatran Elephant</h3>
+                <P>The Sumatran elephant, native to the Indonesian island of Sumatra, is critically endangered due to habitat loss, fragmentation, and human-elephant conflict. With only around 2,400 to 2,800 individuals remaining in the wild, urgent conservation efforts are needed to save this species from extinction.</P>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+
+
+        <div class="cate">
+            <h2>Categories</h2>
+            <hr>
+            <a href="#">Critically Endangered (CR)</a>
+            <hr>
+            <a href="#">Endangered (EN)</a>
+            <hr>
+            <a href="#">Vulnerable (VU)</a>
+            <hr>
+            <a href="#">Taxonomic</a>
+            <hr>
+            <a href="#">Habitat-based</a>
+            <hr>
+            <a href="#">Cause-based</a>
+            <hr>
+
+        </div>
+       </section>
+
+        <!-- footer -->
+        <footer>
+            <div class="footer-col">
+                <h3>Top Products</h3>
+                <li>Manage Reputation</li>
+                <li>Power Tools</li>
+                <li>Citizen Science Projects</li>
+                <li>Marketing Service</li>
+            </div>
+
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <li>Jobs</li>
+                <li>Success Stories</li>
+                <li>News and Updates</li>
+                <li>Terms of Services</li>
+            </div>
+
+            <div class="footer-col">
+                <h3>Features</h3>
+                <li>Donate</li>
+                <li>Power Tools</li>
+                <li>Managed Website</li>
+                <li>Volunteer Opportunities</li>
+            </div>
+
+            <div class="footer-col">
+                <h3>Resources</h3>
+                <li>Guides</li>
+                <li>Research</li>
+                <li>Experts</li>
+                <li>Community Forums</li>
+            </div>
+
+            <div class="footer-col">
+                <h3>Newsletter</h3>
+                <p>You can trust us. We only send promo offers.</p>
+                <div class="subscribe">
+                    <input type="text" placeholder="Your Email address">
+                    <a href="#" class="yellow">SUBSCRIBE</a>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>Copyright @2023 All rights reserved | This template is made by Shokendra and his team.</p>
+                <div class="pro-links">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+            </div>
+        </footer>
+
+
+
+        <script>
+             $('#menu-btn').click(function(){
+                $('nav .navigation ul').addClass('.active')
+            });
+            $('#menu-close').click(function(){
+                $('nav .navigation ul').removeClass('.active')
+            });
+        </script>
+
+
+    </body>
+
+</html>

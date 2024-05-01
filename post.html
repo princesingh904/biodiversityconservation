@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Endangered Species</title>
+
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+        <link rel="stylesheet" href="styleproject.css">
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+
+        <!-- Navigation -->
+
+        <nav>
+            <img src="image/img2.png" alt="">
+            <div class="navigation">
+                <ul>
+                    <i id="menu-close" class="fas fa-times"></i>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a class="active" href="blog.html">Species</a></li>
+                    <li><a href="course.html">Conservation Steps</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <img id="menu-btn" src="images/menu.png" alt="">
+            </div>
+        </nav>
+
+        <!-- Home -->
+        <section id="blog-container">
+            <div class="blogs blogpost">
+                <div class="post">
+                    <img src="image/amur.jpg" alt="">
+                    <h3>This majestic big cat is native to the Russian Far East and northeastern China. With estimates of only around 60 individuals remaining in the wild, it is critically endangered due to habitat loss, poaching, and prey depletion.</h3>
+                    <p>The Amur leopard (Panthera pardus orientalis) is a critically endangered subspecies of leopard native to the temperate forests of the Russian Far East and northeastern China. It is known for its stunning coat, which features large rosettes with thick black borders on a pale golden-yellow background, providing excellent camouflage in its forest habitat.
+                    <br><br>
+                    This leopard is smaller and has thicker fur compared to other leopard subspecies, which helps it survive in the cold climate of its range. It is primarily a solitary and nocturnal hunter, preying on a variety of animals including deer, wild boar, and smaller mammals.
+                    <br><br>
+                    The Amur leopard's population has dramatically declined in recent decades due to habitat loss, poaching, and depletion of prey species. It faces significant threats from logging, infrastructure development, illegal hunting for its beautiful fur, and conflict with humans. Estimates suggest that only around 60 individuals remain in the wild, making it one of the rarest big cats on Earth.
+                    <br><br>
+                    Conservation efforts led by governments, conservation organizations, and local communities aim to protect the remaining Amur leopard population through measures such as habitat preservation, anti-poaching patrols, and community engagement. These efforts are crucial for the survival of this iconic and critically endangered species.
+                    <br><br>
+                    <a href="#">Read Next ?</a>
+                </div>
+                </div>
+        </section>
+
+
+
+
+        <!-- footer -->
+        <footer>
+            <div class="footer-col">
+                <h3>Top Products</h3>
+                <li>Manage Reputation</li>
+                <li>Power Tools</li>
+                <li>Citizen Science Projects</li>
+                <li>Marketing Service</li>
+            </div>
+
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <li>Jobs</li>
+                <li>Success Stories</li>
+                <li>News and Updates</li>
+                <li>Terms of Services</li>
+            </div>
+
+            <div class="footer-col">
+                <h3>Features</h3>
+                <li>Donate</li>
+                <li>Power Tools</li>
+                <li>Managed Website</li>
+                <li>Volunteer Opportunities</li>
+            </div>
+
+            <div class="footer-col">
+                <h3>Resources</h3>
+                <li>Guides</li>
+                <li>Research</li>
+                <li>Experts</li>
+                <li>Community Forums</li>
+            </div>
+
+            <div class="footer-col">
+                <h3>Newsletter</h3>
+                <p>You can trust us. We only send promo offers.</p>
+                <div class="subscribe">
+                    <input type="text" placeholder="Your Email address">
+                    <a href="#" class="yellow">SUBSCRIBE</a>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>Copyright @2023 All rights reserved | This template is made by Shokendra and his team.</p>
+                <div class="pro-links">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+            </div>
+        </footer>
+
+
+
+        <script>
+             $('#menu-btn').click(function(){
+                $('nav .navigation ul').addClass('.active')
+            });
+            $('#menu-close').click(function(){
+                $('nav .navigation ul').removeClass('.active')
+            });
+        </script>
+
+
+    </body>
+
+</html>

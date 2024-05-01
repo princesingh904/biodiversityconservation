@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Endangered Species</title>
+
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+        <link rel="stylesheet" href="styleproject.css">
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+
+        <!-- Navigation -->
+
+        <nav>
+            <img src="image/img2.png" alt="">
+            <div class="navigation">
+                <ul>
+                    <i id="menu-close" class="fas fa-times"></i>
+                    <li><a href="#">Home</a></li>
+                    <li><a class="active" href="about.html">About</a></li>
+                    <li><a href="blog.html">Species</a></li>
+                    <li><a href="course.html">Conservation Steps</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <img id="menu-btn" src="image/tiger.jpg" alt=" ">
+            </div>
+        </nav>
+
+        <!-- Home -->
+
+        <section id="about-home">
+            <h2>Biodiversity Conservation </h2>
+        </section>
+
+        <section id="about-container">
+            <div class="about-img">
+                <img src="image/a.png" alt="">
+            </div>
+
+
+            <div class="about-text">
+                <h2>Welcome, Enhance your knowledge with best Online Content</h2>
+                <p>Our website serves as a dynamic platform for exploring endangered species and conservation efforts globally. With a comprehensive species database, interactive maps, and educational resources, users can delve into the challenges facing endangered species and discover ways to contribute to their conservation. Engage with community experts, access the latest news and updates, and find opportunities to get involved, all aimed at fostering a deeper understanding and proactive involvement in preserving our planet's biodiversity.</p>
+                <div class="about-fe">
+                    <img src="images/fe1.png" alt="">
+                    <div class="fe-text">
+                        <h5>100+ Species Content</h5>
+                        <p>You can start and explore about the endangered species and conservation efforts in under our
+                        site</p>
+                    </div>
+                </div>
+
+                <div class="about-fe">
+                    <img src="images/fe2.png" alt="">
+                    <div class="fe-text">
+                        <h5>Lifetime Access</h5>
+                        <p>You can access the content throughout the session in under our
+                        site</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <!-- features -->
+
+        <section id="features">
+            <h1>Awesome Features</h1>
+            <p>Embark on a digital safari and witness endangered species in their natural habitats through our immersive Virtual Reality Experience</p>
+            <div class="fea-base">
+                <div class="fea-box">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>Intercative Species Map</h3>
+                    <p>Implement an interactive map where users can explore endangered species across different regions</p>
+    
+                </div>
+                <div class="fea-box">
+                    <i class="fas fa-file-certificate"></i>
+                    <h3>Conservation Success Stories</h3>
+                    <p>Dedicate a section of the website to inspiring success stories in conservation</p>
+    
+                </div>
+                <div class="fea-box">
+                    <i class="fas fa-award"></i>
+                    <h3>Virtual Reality Experience</h3>
+                    <p>Offer a virtual reality (VR) experience that transports users to endangered habitats around the world</p>
+    
+                </div>
+            </div>
+        </section>
+
+        <section id="trust">
+            <h1>Trusted By</h1>
+            <p>Trusted by conservationists worldwide, our website is a reliable source for accurate information, innovative tools, and impactful initiatives aimed at safeguarding endangered species and their habitats.</p>
+            <div class="trust-img">
+                <img src="image/trust (1).png" alt="">
+                <img src="image/trust (2).png" alt="">
+                <img src="image/trust (3).png" alt="">
+                <img src="image/trust (4).png" alt="">
+                <img src="image/trust (5).png" alt="">
+                <img src="image/trust (6).png" alt="">
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer>
+            <div class="footer-col">
+                <h3>Top Products</h3>
+                <li>Manage Reputation</li>
+                <li>Power Tools</li>
+                <li>Managed Website</li>
+                <li>Marketing Service</li>
+            </div>
+
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <li>Jobs</li>
+                <li>Brand Assests</li>
+                <li>Investors Relations</li>
+                <li>Terms of Services</li>
+            </div>
+
+            <div class="footer-col">
+                <h3>Features</h3>
+                <li>Manage Reputation</li>
+                <li>Power Tools</li>
+                <li>Managed Website</li>
+                <li>MArketing Service</li>
+            </div>
+
+            <div class="footer-col">
+                <h3>Resources</h3>
+                <li>Guides</li>
+                <li>Research</li>
+                <li>Experts</li>
+                <li>Marketing Service</li>
+            </div>
+
+            <div class="footer-col">
+                <h3>Newsletter</h3>
+                <p>You can trust us. We only send promo offers.</p>
+                <div class="subscribe">
+                    <input type="text" placeholder="Your Email address">
+                    <a href="#" class="yellow">SUBSCRIBE</a>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>Copyright @2023 All rights reserved | This template is made by Shokendra and his team.</p>
+                <div class="pro-links">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+            </div>
+        </footer>
+
+
+
+        <script>
+             $('#menu-btn').click(function(){
+                $('nav .navigation ul').addClass('.active')
+            });
+            $('#menu-close').click(function(){
+                $('nav .navigation ul').removeClass('.active')
+            });
+        </script>
+
+
+    </body>
+
+</html>
